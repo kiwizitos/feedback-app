@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import Button from '../components/shared/Button'
 
 import Card from '../components/shared/Card'
 
@@ -14,7 +15,7 @@ const About = () => {
 
         <p>
           <Link to='/'>
-            <button>Back to Feedback Form</button>
+            <Button version='secondary'>Back to Feedback Form</Button>
           </Link>
         </p>
       </div>
